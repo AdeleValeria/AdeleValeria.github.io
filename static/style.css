@@ -19,10 +19,10 @@ body, html {
 .navbar {
     display: flex;
     align-items: center;
-    background: #3AAFA9; /* Background color */
+    background: #3AAFA9;
     padding: 15px;
     font-family: "Noto Sans", sans-serif;
-    border-radius: 8px 8px 0 0; /* Match the container's border radius */
+    border-radius: 8px 8px 0 0;
 }
 
 .title {
@@ -41,21 +41,21 @@ body, html {
 
 .nav li {
     position: relative;
-    margin: 0 10px; /* Reduce margin between menu items */
+    margin: 0 10px;
 }
 
 .nav li:not(:last-child)::after {
     content: "/";
     color: #DEF2F1;
     position: absolute;
-    right: -15px; /* Adjust the position to match the reduced margin */
+    right: -15px;
     top: 50%;
     transform: translateY(-50%);
 }
 
 .nav a {
     display: block;
-    padding: 0 10px; /* Reduce padding inside menu items */
+    padding: 0 10px; 
     color: #DEF2F1;
     text-decoration: none;
 }
