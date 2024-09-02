@@ -128,3 +128,33 @@ body, html {
     height: auto;
     border-radius: 8px 8px 0 0; 
 }
+
+.posts-grid {
+    display: flex;
+    flex-direction: column; /* Arrange posts in a vertical column */
+}
+
+.post {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px; /* Space between posts */
+}
+
+.post h2 {
+    font-size: 18px;
+}
+
+.post h2 a {
+    color: #0d7963;
+    text-decoration: none;
+}
+
+.post h2 a:hover {
+    text-decoration: underline;
+}
+
+.post p {
+    color: #666666;
+}
